@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning HTML</title>
+        <link rel="stylesheet" type="text/css" href="coffeeshop.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home |</a>
+            <a href="product.html">Product |</a>
+            <a href="contacts.html">Contacts.</a>
+        </nav>
+        <span style="border: 2px solid red; display: block; ">Span 1</span>
+        <span style="border: 2px solid green; display: block;">Span 2</span>
+        <p></p>
+        <div style="border: 2px solid red; display: inline;">Div 1</div>
+        <div style="border:2px solid green; display: inline;">Div 2</div>
+        <div>
+            <table class="pricing-table">
+                <caption class="caption-heading">
+                    <h1>Coffee Menu</h1>
+                </caption>
+                <tr>
+                    <th>Coffee Name</th>
+                    <th>Price(in Rs.)</th>
+                    <th>Availability</th>
+                </tr>
+                <tr class="tr-out-of-stock">
+                    <td>Mocha</td>
+                    <td>140</td>
+                    <td>Out of stock</td>
+                </tr>
+                <tr class="tr-in-stock">
+                    <td>Cappucino</td>
+                    <td>170</td>
+                    <td>In-stock</td>
+                </tr>
+            </table>
+        </div>
+        <div class="available-coffee">
+            <p>This is a normal text.</p>
+            <p>This is a <b>Bold</b>.</p>
+            <p>This is a <i>Italic</i>.</p>
+            <p>This is a <strong>strong</strong>.</p>
+            <p>This is a <em>emphasized</em>.</p>
+            <p>This is a <sub>subscript</sub>.</p>
+            <p>This is a <sup>Superscript</sup>.</p>
+            <p>This is a <del>deleted</del>.</p>
+        </div>
+        <div class="available-coffee out-of-stock" id="Mocha" style="display: inline-block;">
+            <h4>Mocha</h4>
+            <img src="Mocha.png" class="div-img" alt="Mocha Logo">
+        </div>
+        <div class="available-coffee in-stock" style="display: inline-block;">
+            <h4>Capuccino</h4>
+            <img src="Cappuccino.png" class="div-img" alt="Cappuccino Logo">
+        </div>
+        <footer class="footer">
+            <div style="height: 50%;">
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <p>Designed by Bolt Copyright @ Inventrom</p>
+            </div>
+        </footer>
+    </body>
+</html>
